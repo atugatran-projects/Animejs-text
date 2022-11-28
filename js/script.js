@@ -1,5 +1,5 @@
 anime({
-    targets: '.text path',
+    targets: 'text path',
     strokeDashoffset: [anime.setDashoffset, 0],
     easing: 'easeInOutSine',
     duration: 1500,
