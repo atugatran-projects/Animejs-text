@@ -1,3 +1,4 @@
+// First and second text
 anime({
     targets: '.text path',
     strokeDashoffset: [anime.setDashoffset, 0],
