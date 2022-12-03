@@ -1,10 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0%;
   box-sizing: border-box;
 }
 
-body{
+body {
   width: 100vw;
   height: 100vh;
   background-color: darkorange;
@@ -15,9 +15,26 @@ body{
   margin: auto;
 }
 
-.text{
+.text {
   display: flex;
   width: 60vw;
   height: 20vh;
   margin: 1rem;
+}
+
+.text-path {
+  stroke-width: 5;
+}
+
+@media screen and (max-width: 500px) {
+  .text {
+    display: flex;
+    width: 95vw;
+    height: 20vh;
+    margin: 1rem;
+  }
+
+  .text-path {
+    stroke-width: 10;
+  }
 }
